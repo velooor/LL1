@@ -1,0 +1,13 @@
+#main{
+    visibility: hidden;
+}
+.allRow{
+    display: flex;
+    padding: 2%;
+}
+.id{
+    width: 10%;
+}
+.date{
+    width: 45%;
+}

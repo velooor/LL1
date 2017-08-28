@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <apartment ID="1" STARTDATE="2017-08-23 01:11:10" ENDDATE="2017-08-24 01:33:10"/>
+    <apartment ID="2" STARTDATE="2017-08-24 01:11:10" ENDDATE="2017-08-25 01:33:10"/>
+    <apartment ID="3" STARTDATE="2017-08-26 01:11:10" ENDDATE="2017-08-27 01:33:10"/>
+</dataset>

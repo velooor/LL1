@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.epam.zakharchenya.task.model.entity.Room" table="APARTMENT">
+        <meta attribute="class-description">
+            This class contains the apartment detail.
+        </meta>
+        <id name="apId" type="int" column="ID">
+            <generator class="increment"/>
+        </id>
+        <property name="startDate" column="STARTDATE" type="timestamp"/>
+        <property name="endDate" column="ENDDATE" type="timestamp"/>
+    </class>
+
+</hibernate-mapping>
