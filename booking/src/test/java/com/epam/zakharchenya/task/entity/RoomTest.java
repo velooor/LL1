@@ -54,7 +54,6 @@ public class RoomTest  extends DBUnitConfig {
         BookingLogic.closeDAO();
 
         IDataSet expectedData = new FlatXmlDataSetBuilder().build(Thread.currentThread().getContextClassLoader().getResourceAsStream(path));
-        //expectedData.getTable()
         int id = Integer.valueOf(expectedData.getTable("apartment").getValue(0, "ID").toString());
         assertEquals(id, room.getApId());
 
