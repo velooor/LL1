@@ -2,9 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d73e76-96a4-4158-91c3-e68d633b54cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/util/ContextListener.class" afterPath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/util/ContextListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking/target/test-classes/config/DBUnitConfig.class" afterPath="$PROJECT_DIR$/booking/target/test-classes/config/DBUnitConfig.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/Constants$State.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/action/Command.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/action/CommandFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/action/CommandType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/action/command/AddRoomCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/action/command/ErrorCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/action/command/LocaleCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/action/command/QueryCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/action/command/SearchCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/action/command/SearchIDCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/dao/EntityDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/dao/RoomDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/daoservice/BookingLogic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/daoservice/DAOLogic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/entity/DatabaseEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/entity/Room.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/entity/Visitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/exception/CommandException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/factory/ActionFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/logic/JSONConversionLogic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/logic/SearchCommandLogic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/manager/ConfigurationManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/manager/Manager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/manager/MessageConstants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/manager/MessageManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/util/ContextHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/util/ContextListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/model/util/HibernateUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/test-classes/com/epam/zakharchenya/task/model/entity/RoomTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/booking/target/test-classes/com/epam/zakharchenya/task/model/factory/ActionFactoryTest.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/Constants.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/Constants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/Command.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/Command.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/CommandFactory.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/CommandFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/CommandType.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/CommandType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/command/AddRoomCommand.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/command/AddRoomCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/command/ErrorCommand.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/command/ErrorCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/command/LocaleCommand.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/command/LocaleCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/command/QueryCommand.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/command/QueryCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/command/SearchCommand.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/command/SearchCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/command/SearchIDCommand.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/command/SearchIDCommand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/dao/EntityDAO.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/dao/EntityDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/dao/RoomDAO.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/dao/RoomDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/daoservice/BookingLogic.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/daoservice/BookingLogic.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/daoservice/DAOLogic.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/daoservice/DAOLogic.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/entity/DatabaseEntity.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/entity/DatabaseEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/entity/Room.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/entity/Room.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/entity/Visitor.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/entity/Visitor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/exception/CommandException.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/exception/CommandException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/factory/ActionFactory.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/factory/ActionFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/logic/JSONConversionLogic.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/logic/JSONConversionLogic.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/logic/SearchCommandLogic.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/logic/SearchCommandLogic.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/manager/ConfigurationManager.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/manager/ConfigurationManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/manager/Manager.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/manager/Manager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/manager/MessageConstants.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/manager/MessageConstants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/manager/MessageManager.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/manager/MessageManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/util/ContextHolder.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/util/ContextHolder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/util/ContextListener.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/util/ContextListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/util/HibernateUtil.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/util/HibernateUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/model/entity/RoomTest.java" afterPath="$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/entity/RoomTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/model/factory/ActionFactoryTest.java" afterPath="$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/factory/ActionFactoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/Config.class" afterPath="$PROJECT_DIR$/booking/target/classes/com/epam/zakharchenya/task/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/epam/zakharchenya/task/controller/Controller$1.class" afterPath="$PROJECT_DIR$/web/target/classes/com/epam/zakharchenya/task/controller/Controller$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/epam/zakharchenya/task/controller/Controller.class" afterPath="$PROJECT_DIR$/web/target/classes/com/epam/zakharchenya/task/controller/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/epam/zakharchenya/task/controller/Controller$1.class" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/epam/zakharchenya/task/controller/Controller$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/epam/zakharchenya/task/controller/Controller.class" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/epam/zakharchenya/task/controller/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/booking-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/booking-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/web-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/web-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/Config.java" afterPath="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/Config.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking/src/main/resources/apartment.hbm.xml" afterPath="$PROJECT_DIR$/booking/src/main/resources/apartment.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking/target/classes/apartment.hbm.xml" afterPath="$PROJECT_DIR$/booking/target/classes/apartment.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking/target/test-classes/db.config.properties" afterPath="$PROJECT_DIR$/booking/target/test-classes/db.config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/epam/zakharchenya/task/controller/Controller.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/epam/zakharchenya/task/controller/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
     </list>
     <ignored path="LL1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +108,6 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="Oracle - @localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -47,109 +116,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LocaleCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/command/LocaleCommand.java">
+      <file leaf-file-name="RoomTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/entity/RoomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSONConversionLogic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/logic/JSONConversionLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchCommandLogic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/logic/SearchCommandLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/factory/ActionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="116" selection-start-line="16" selection-start-column="116" selection-end-line="16" selection-end-column="116" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookingLogic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/daoservice/BookingLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding>
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DAOLogic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/daoservice/DAOLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding>
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntityDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/dao/EntityDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoomDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/dao/RoomDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/epam/zakharchenya/task/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+            <state relative-caret-position="748">
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -178,8 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/manager/ConfigurationManager.java" />
-        <option value="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/manager/Manager.java" />
         <option value="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/manager/MessageManager.java" />
         <option value="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/service/BookingService.java" />
         <option value="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/logic/Logic.java" />
@@ -229,6 +198,8 @@
         <option value="$PROJECT_DIR$/booking/src/test/resources/db.config.properties" />
         <option value="$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/Config.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/epam/zakharchenya/task/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/logic/JSONConversionLogicTest.java" />
+        <option value="$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/entity/RoomTest.java" />
       </list>
     </option>
   </component>
@@ -291,7 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -322,24 +293,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LL1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LL1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -491,7 +444,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="task" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -525,7 +478,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="task" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -589,9 +542,183 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LL1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LL1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="booking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LL1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LL1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="booking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LL1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LL1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="booking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LL1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LL1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="booking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LL1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LL1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="booking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -604,15 +731,9 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/apartments2-master" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Vadzim_Zakharchenya\OneDrive\L\LL1\booking\src\test\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.epam.zakaharchenya.task.model" />
       <recent name="com.epam.zakharchenya.task" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.epam.zakharchenya.task.model.exception" />
+      <recent name="com.epam.zakaharchenya.task.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vadzim_Zakharchenya\OneDrive\L\LL1\booking" />
@@ -621,34 +742,14 @@
       <recent name="C:\Users\Vadzim_Zakharchenya\OneDrive\L\LL1\booking\src\test\java" />
       <recent name="C:\Users\Vadzim_Zakharchenya\OneDrive\L\LL1\booking\src\test\java\com\epam\zakharchenya\task\model\entity" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.epam.zakharchenya.task.model.exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vadzim_Zakharchenya\OneDrive\L\LL1\booking\src\test\resources" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.RoomTest">
-    <configuration default="false" name="RoomTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.epam.zakharchenya.task.model.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="booking" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.epam.zakharchenya.task.model.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.zakharchenya.task.model.entity.RoomTest" />
-      <option name="METHOD_NAME" value="testGetAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="RoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -659,13 +760,13 @@
       <module name="booking" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.epam.zakharchenya.task.model.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.zakharchenya.task.model.entity.RoomTest" />
-      <option name="METHOD_NAME" />
+      <option name="PACKAGE_NAME" value="com.epam.zakharchenya.task.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.zakharchenya.task.entity.RoomTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -675,75 +776,23 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ActionFactoryTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ActionFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.epam.zakharchenya.task.model.factory.*" />
+          <option name="PATTERN" value="com.epam.zakharchenya.task.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="booking" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.epam.zakharchenya.task.model.factory" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.zakharchenya.task.model.factory.ActionFactoryTest" />
-      <option name="METHOD_NAME" />
+      <option name="PACKAGE_NAME" value="com.epam.zakharchenya.task.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.zakharchenya.task.factory.ActionFactoryTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="DBUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.epam.zakharchenya.task.model.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="booking" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.epam.zakharchenya.task.model.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.zakharchenya.task.model.entity.DBUnit" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="DBUnit.testById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.epam.zakharchenya.task.model.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="booking" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.epam.zakharchenya.task.model.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.zakharchenya.task.model.entity.DBUnit" />
-      <option name="METHOD_NAME" value="testById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -1333,20 +1382,15 @@
         </option>
       </method>
     </configuration>
-    <list size="6">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 9.0" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RoomTest.testGetAll" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RoomTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ActionFactoryTest (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DBUnit" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.DBUnit.testById" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RoomTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ActionFactoryTest" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="JUnit.RoomTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DBUnit.testById" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DBUnit" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ActionFactoryTest (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ActionFactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1383,6 +1427,7 @@
       <workItem from="1503580290862" duration="1345000" />
       <workItem from="1503584247917" duration="4271000" />
       <workItem from="1503653487039" duration="4905000" />
+      <workItem from="1503914255955" duration="3789000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1502972119255</created>
@@ -1423,39 +1468,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RoomTest - 2017.08.25 at 13h 28m 31s.xml">
+    <history-entry file="RoomTest - 2017.08.28 at 13h 43m 21s.xml">
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoomTest - 2017.08.25 at 13h 29m 04s.xml">
+    <history-entry file="RoomTest - 2017.08.28 at 13h 47m 57s.xml">
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoomTest - 2017.08.25 at 13h 29m 15s.xml">
+    <history-entry file="RoomTest - 2017.08.28 at 13h 48m 26s.xml">
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoomTest - 2017.08.25 at 13h 29m 37s.xml">
+    <history-entry file="RoomTest - 2017.08.28 at 13h 49m 11s.xml">
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoomTest - 2017.08.25 at 13h 29m 55s.xml">
+    <history-entry file="RoomTest - 2017.08.28 at 13h 50m 30s.xml">
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoomTest - 2017.08.25 at 13h 30m 08s.xml">
+    <history-entry file="RoomTest - 2017.08.28 at 13h 52m 00s.xml">
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoomTest - 2017.08.25 at 13h 30m 32s.xml">
+    <history-entry file="RoomTest - 2017.08.28 at 13h 52m 11s.xml">
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoomTest - 2017.08.25 at 13h 30m 45s.xml">
+    <history-entry file="RoomTest - 2017.08.28 at 13h 53m 40s.xml">
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoomTest - 2017.08.25 at 13h 32m 03s.xml">
+    <history-entry file="RoomTest - 2017.08.28 at 14h 01m 03s.xml">
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoomTest - 2017.08.25 at 13h 32m 56s.xml">
+    <history-entry file="RoomTest - 2017.08.28 at 14h 01m 26s.xml">
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76623000" />
+    <option name="totallyTimeSpent" value="80412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1471,28 +1516,29 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43878657" sideWeight="0.25479743" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.248104" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10181237" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33044422" sideWeight="0.7835821" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21451788" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.248104" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10181237" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5633803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261105" sideWeight="0.74520254" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2185501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27735645" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35427952" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1500,8 +1546,40 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8656555" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35427952" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.248104" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10181237" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8656555" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27735645" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21451788" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5633803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2185501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35427952" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1522,7 +1600,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="35" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/logic/JSONConversionLogicTest.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/entity/RoomTest.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1535,163 +1627,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/command/QueryCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="109" selection-start-line="32" selection-start-column="109" selection-end-line="32" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/command/SearchIDCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1502431498647" expanded="true" signature="542:677" ph="/**...*/" />
-            <marker date="1502431498647" expanded="true" signature="742:957" ph="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/entity/DatabaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/entity/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <element signature="e#429#430#0" expanded="false" />
-            <element signature="e#456#457#0" expanded="false" />
-            <element signature="e#500#501#0" expanded="false" />
-            <element signature="e#539#540#0" expanded="false" />
-            <element signature="e#583#584#0" expanded="false" />
-            <element signature="e#615#616#0" expanded="false" />
-            <element signature="e#668#669#0" expanded="false" />
-            <element signature="e#710#711#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#777#778#0" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/entity/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#349#350#0" expanded="false" />
-            <element signature="e#378#379#0" expanded="false" />
-            <element signature="e#422#423#0" expanded="false" />
-            <element signature="e#458#459#0" expanded="false" />
-            <element signature="e#496#497#0" expanded="false" />
-            <element signature="e#530#531#0" expanded="false" />
-            <element signature="e#584#585#0" expanded="false" />
-            <element signature="e#630#631#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/exception/CommandException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="139" column="43" selection-start-line="139" selection-start-column="43" selection-end-line="139" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/apartments2-master/apartments4.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/test/resources/room-data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/model/SimpleDBTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/model/XmlDatabaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/model/entity/room-data.xml" />
     <entry file="file://$PROJECT_DIR$/booking/src/test/java/room-data.xml" />
     <entry file="file://$PROJECT_DIR$/room-data.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/dbunit/dbunit/2.4.9/dbunit-2.4.9.jar!/org/dbunit/DatabaseTestCase.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/JUnit38ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1723,23 +1664,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/model/entity/DBUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/model/entity/DBUnit.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/27d6d0ea-4c7d-4dc2-8917-644493b8d858/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/util/HibernateUtil.java">
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/util/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
@@ -1747,17 +1680,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/util/ContextHolder.java">
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/util/ContextHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#331#332#0" expanded="false" />
+            <element signature="e#325#326#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/util/ContextListener.java">
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/util/ContextListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="19" column="64" selection-start-line="18" selection-start-column="8" selection-end-line="19" selection-end-column="64" />
@@ -1769,7 +1702,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1781,34 +1713,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/room-data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/model/entity/RoomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/model/factory/ActionFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/room-data.xml" />
     <entry file="file://$PROJECT_DIR$/booking/src/test/java/config/DBUnitConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -1823,6 +1728,154 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/command/ErrorCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/command/LocaleCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/daoservice/DAOLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#563#564#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/epam/zakharchenya/task/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LL1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#432#433#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/command/AddRoomCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/CommandType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/dao/EntityDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/dao/RoomDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/daoservice/BookingLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#481#482#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/entity/DatabaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/factory/ActionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="116" selection-start-line="16" selection-start-column="116" selection-end-line="16" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/entity/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/Timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1551">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1835,130 +1888,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/CommandFactory.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar!/com/google/gson/JsonArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/logic/JSONConversionLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#607#613#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/CommandType.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state relative-caret-position="238">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/Command.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="195">
+          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/command/AddRoomCommand.java">
+    <entry file="file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/logic/JSONConversionLogicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="324">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/command/ErrorCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/action/command/LocaleCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/logic/JSONConversionLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/logic/SearchCommandLogic.java">
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/manager/ConfigurationManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/factory/ActionFactory.java">
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/manager/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="116" selection-start-line="16" selection-start-column="116" selection-end-line="16" selection-end-column="116" />
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/daoservice/BookingLogic.java">
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/manager/MessageConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/daoservice/DAOLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/dao/EntityDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/model/dao/RoomDAO.java">
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/manager/MessageManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/Config.java">
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/action/command/SearchIDCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/main/java/com/epam/zakharchenya/task/logic/SearchCommandLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/factory/ActionFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/dbunit/dbunit/2.4.9/dbunit-2.4.9.jar!/org/dbunit/dataset/ITable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/dbunit/dbunit/2.4.9/dbunit-2.4.9.jar!/org/dbunit/dataset/IDataSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/JUnit38ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1560">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/epam/zakharchenya/task/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/booking/src/test/java/com/epam/zakharchenya/task/entity/RoomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+        <state relative-caret-position="748">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding />
         </state>
       </provider>

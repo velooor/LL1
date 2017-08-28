@@ -1,13 +1,11 @@
 package com.epam.zakharchenya.task.controller;
 
-import com.epam.zakharchenya.task.model.Constants;
-import com.epam.zakharchenya.task.model.action.Command;
-import com.epam.zakharchenya.task.model.action.CommandFactory;
-import com.epam.zakharchenya.task.model.action.command.ErrorCommand;
-import com.epam.zakharchenya.task.model.exception.CommandException;
-import com.epam.zakharchenya.task.model.factory.ActionFactory;
-import com.epam.zakharchenya.task.model.manager.ConfigurationManager;
-import com.epam.zakharchenya.task.model.util.ContextHolder;
+import com.epam.zakharchenya.task.Constants;
+import com.epam.zakharchenya.task.action.CommandFactory;
+import com.epam.zakharchenya.task.exception.CommandException;
+import com.epam.zakharchenya.task.factory.ActionFactory;
+import com.epam.zakharchenya.task.manager.ConfigurationManager;
+import com.epam.zakharchenya.task.util.ContextHolder;
 import com.google.gson.JsonArray;
 
 import javax.servlet.RequestDispatcher;
@@ -20,8 +18,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Base64;
 
-import static com.epam.zakharchenya.task.model.Constants.PAGE_ERROR;
-import static com.epam.zakharchenya.task.model.Constants.STATE_KEY;
+import static com.epam.zakharchenya.task.Constants.PAGE_ERROR;
+import static com.epam.zakharchenya.task.Constants.STATE_KEY;
 
 @WebServlet(name = "WebServlet", urlPatterns = {"/main/*"})
 @MultipartConfig(maxFileSize = 52428800, maxRequestSize = 52428800)

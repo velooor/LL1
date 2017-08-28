@@ -1,6 +1,6 @@
 package com.epam.zakharchenya.task;
 
-import com.epam.zakharchenya.task.model.factory.ActionFactory;
+import com.epam.zakharchenya.task.factory.ActionFactory;
 import com.google.gson.Gson;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
